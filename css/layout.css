@@ -4,9 +4,14 @@
 
 @import url("colors/color.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Alata&family=Bacasime+Antique&display=swap');
 
 /* #PAGE LOAD */
-
+*{
+	font-family: 'Agdasima', sans-serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Bacasime Antique', serif;
+}
 body.royal_loader {
     background: none;
     visibility: hidden;
@@ -640,20 +645,20 @@ body::before {
   z-index: 2;
 }
 .cd-section:first-of-type > div {
-  background-image: url('../images/1.jpg');
+  background-image: url('../images/out/out1.jpg');
 }
-.cd-section:nth-of-type(2) > div {
-  background-image: url('../images/2.jpg');
+/* .cd-section:nth-of-type(2) > div {
+  background-image: url('../images/out/out.jpg');
 }
 .cd-section:nth-of-type(3) > div {
-  background-image: url('../images/3.jpg');
+  background-image: url('../images/out/out3.jpg');
 }
 .cd-section:nth-of-type(4) > div {
-  background-image: url('../images/4.jpg');
+  background-image: url('../images/out/out2.jpg');
 }
 .cd-section:nth-of-type(5) > div {
-  background-image: url('../images/5.jpg');
-}
+  background-image: url('../images/out/5.jpg');
+} */
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
   background-repeat: no-repeat;

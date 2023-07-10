@@ -15,6 +15,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Alata&family=Bacasime+Antique&display=swap');
+
+*{
+	font-family: 'Agdasima', sans-serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Bacasime Antique', serif;
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
